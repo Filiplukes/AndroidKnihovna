@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeMenu"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Domu" />
+
+    <item
+        android:id="@+id/bookMenu"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Knihy" />
+
+    <item
+        android:id="@+id/searchBookOnline"
+        android:icon="@drawable/ic_baseline_searchbook"
+        android:title="Najdi knihu online" />
+
+    <item
+        android:id="@+id/settingMenu"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="Nastavení" />
+
+</menu>

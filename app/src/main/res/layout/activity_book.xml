@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book">
+
+    <TextView
+        android:id="@+id/bookName"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center_horizontal"
+        android:text="kniha"
+        android:textAlignment="center"
+        android:textColor="@color/pismo"
+        android:textSize="48sp"
+        android:layout_margin="10dp"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="246dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/bookName"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:numStars="5"
+
+       />
+
+    <TextView
+        android:id="@+id/textAuthor"
+        android:layout_below="@id/ratingBar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="autor"
+        android:layout_marginTop="42dp"
+        android:textColor="@color/pismo"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textGenre"
+        android:layout_below="@id/textAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="žánry"
+        android:layout_marginTop="42dp"
+        android:textColor="@color/pismo"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textStav"
+        android:layout_below="@+id/textGenre"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="stav"
+        android:layout_marginTop="42dp"
+        android:textColor="@color/pismo"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textPage"
+        android:layout_below="@id/textStav"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Stran"
+        android:layout_marginTop="42dp"
+        android:textColor="@color/pismo2"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/updateBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPage"
+        android:layout_alignRight="@id/textPage"
+        app:cornerRadius="20dp"
+        android:text="Uprav" />
+
+
+</RelativeLayout>
